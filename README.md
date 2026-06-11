@@ -1,0 +1,1 @@
+# jewelry-cad-privacy
