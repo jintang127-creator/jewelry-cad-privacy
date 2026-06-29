@@ -3,137 +3,217 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy & Terms - Jewelry CAD Store</title>
+<title>Jewelry CAD Store — Legal</title>
 <style>
-  body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.8; color: #222; }
-  h1 { color: #C9A84C; border-bottom: 2px solid #C9A84C; padding-bottom: 10px; }
-  h2 { color: #333; margin-top: 40px; }
-  h3 { color: #555; }
-  .updated { color: #888; font-size: 14px; }
-  .highlight { background: #fff8e1; border-left: 4px solid #C9A84C; padding: 12px 16px; margin: 20px 0; }
-  a { color: #C9A84C; }
+  :root {
+    --gold: #C9A84C;
+    --bg: #ffffff;
+    --ink: #1a1a1a;
+    --sub: #555;
+    --line: #e2e2e2;
+    --box: #faf8f3;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.65;
+    margin: 0;
+    padding: 0;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 22px 80px; }
+  header {
+    border-bottom: 3px solid var(--gold);
+    padding-bottom: 18px;
+    margin-bottom: 8px;
+  }
+  h1 { font-size: 1.7rem; margin: 0 0 4px; letter-spacing: 0.5px; }
+  .brand { color: var(--gold); font-weight: 700; }
+  .updated { color: var(--sub); font-size: 0.85rem; margin-top: 6px; }
+  nav {
+    background: var(--box);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin: 22px 0 30px;
+    font-size: 0.92rem;
+  }
+  nav strong { display: block; margin-bottom: 6px; }
+  nav a { color: var(--ink); text-decoration: none; display: inline-block; margin: 2px 14px 2px 0; }
+  nav a:hover { color: var(--gold); text-decoration: underline; }
+  h2 {
+    font-size: 1.25rem;
+    margin: 40px 0 10px;
+    padding-top: 14px;
+    border-top: 1px solid var(--line);
+  }
+  h2:first-of-type { border-top: none; }
+  h3 { font-size: 1.02rem; margin: 22px 0 6px; }
+  p, li { font-size: 0.96rem; color: var(--ink); }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: #8a6d1f; }
+  .note {
+    background: var(--box);
+    border-left: 4px solid var(--gold);
+    padding: 12px 16px;
+    border-radius: 0 8px 8px 0;
+    margin: 16px 0;
+    font-size: 0.92rem;
+  }
+  .contact-box {
+    background: var(--box);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-top: 16px;
+  }
+  footer {
+    margin-top: 50px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    color: var(--sub);
+    font-size: 0.85rem;
+  }
+  code { background: var(--box); padding: 1px 5px; border-radius: 4px; font-size: 0.88em; }
 </style>
 </head>
 <body>
+<div class="wrap">
 
-<h1>Privacy Policy & Terms of Service</h1>
-<p class="updated"><strong>App:</strong> Jewelry CAD Store &nbsp;|&nbsp; <strong>Last updated:</strong> June 11, 2026</p>
+<header>
+  <h1><span class="brand">Jewelry CAD Store</span> — Legal Center</h1>
+  <div class="updated">Last updated: June 29, 2026</div>
+</header>
 
-<div class="highlight">
-  <strong>Important:</strong> By downloading or using Jewelry CAD Store, you agree to these terms. Please read carefully before making any purchase.
+<nav>
+  <strong>Contents</strong>
+  <a href="#privacy">Privacy Policy</a>
+  <a href="#terms">Terms of Service</a>
+  <a href="#purchases">Purchase &amp; Refund Terms</a>
+  <a href="#license">Content License</a>
+  <a href="#disclaimer">Disclaimer</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<p>This page contains the Privacy Policy and Terms of Service that govern your use of the Jewelry CAD Store mobile application (the "App"). The App is operated by Loan Tran, an individual developer ("we," "us," or "our"). By creating an account or making a purchase, you agree to the terms below.</p>
+
+<!-- ================= PRIVACY POLICY ================= -->
+<h2 id="privacy">1. Privacy Policy</h2>
+
+<h3>1.1 Information we collect</h3>
+<p>We collect only what is needed to operate the App:</p>
+<ul>
+  <li><strong>Account information.</strong> When you register with email and password, we store your email address. If you sign in with Google, we receive your email address and basic Google account profile information through Google Sign-In.</li>
+  <li><strong>Authentication.</strong> We use Firebase Authentication (a Google service) to manage sign-in. Each account is assigned a unique user identifier (UID).</li>
+  <li><strong>Purchase and usage records.</strong> We store your token balance, your purchase history (which package was bought and when), and your download history (which CAD files you accessed and the tokens spent). This lets you see your own activity and lets us provide support.</li>
+  <li><strong>Technical data.</strong> Our infrastructure provider (Firebase / Google Cloud) may process technical information such as IP address, device type, and diagnostic data as part of delivering the service.</li>
+</ul>
+
+<h3>1.2 How we use your information</h3>
+<ul>
+  <li>To create and manage your account.</li>
+  <li>To process in-app purchases and track your token balance.</li>
+  <li>To deliver the CAD files you unlock.</li>
+  <li>To provide customer support and respond to your requests.</li>
+  <li>To maintain security and prevent fraud or abuse.</li>
+</ul>
+
+<h3>1.3 Third-party services</h3>
+<p>We rely on the following third parties to operate the App. Their handling of data is governed by their own privacy policies:</p>
+<ul>
+  <li><strong>Google Firebase</strong> (Authentication, Firestore database) — stores account, purchase, and download records.</li>
+  <li><strong>Google Play Billing</strong> — processes all payments. We never see or store your full card or payment details.</li>
+  <li><strong>Google Drive</strong> — hosts the CAD files delivered to you after purchase.</li>
+</ul>
+
+<h3>1.4 We do not sell your data</h3>
+<p>We do not sell, rent, or trade your personal information to third parties. We do not use your data for third-party advertising or ad-tracking.</p>
+
+<h3>1.5 Your rights (CCPA &amp; PIPEDA)</h3>
+<p>Depending on where you live, you may have the right to access, correct, or delete your personal data. Residents of California (CCPA) and Canada (PIPEDA) have specific rights regarding their personal information, including the right to request deletion.</p>
+<p>To request access to or deletion of your data, email us at <a href="mailto:lttran1294@gmail.com">lttran1294@gmail.com</a> with the email address associated with your account. We will process verified deletion requests within a reasonable time. Deleting your data removes your account, token balance, and purchase and download history; this action cannot be undone.</p>
+
+<h3>1.6 Data security and retention</h3>
+<p>Data is transmitted using encryption in transit. We retain your account and transaction records for as long as your account is active or as needed to provide the service and meet legal obligations.</p>
+
+<h3>1.7 Children</h3>
+<p>The App is intended for professional and adult users and is not directed at children under 13. We do not knowingly collect data from children under 13.</p>
+
+<!-- ================= TERMS OF SERVICE ================= -->
+<h2 id="terms">2. Terms of Service</h2>
+
+<h3>2.1 The service</h3>
+<p>Jewelry CAD Store provides access to a catalogue of jewelry CAD (computer-aided design) files. Access to file details and downloads requires a one-time unlock purchase and the use of tokens, as described in the Purchase Terms below.</p>
+
+<h3>2.2 Accounts</h3>
+<p>You are responsible for keeping your login credentials secure and for all activity under your account. You agree to provide accurate information and to be at least the age of majority in your jurisdiction, or to have permission from a parent or guardian.</p>
+
+<h3>2.3 Acceptable use</h3>
+<p>You agree not to misuse the App, including by attempting to bypass payment, tampering with token balances, reverse-engineering the App, or redistributing purchased CAD files in violation of the Content License below.</p>
+
+<h3>2.4 Limitation of liability</h3>
+<p>The App and its content are provided "as is" and "as available," without warranties of any kind, express or implied. To the maximum extent permitted by law, Loan Tran shall not be liable for any indirect, incidental, special, or consequential damages, or for any loss of data, profits, or business, arising from your use of or inability to use the App. Our total liability for any claim shall not exceed the amount you paid through the App in the twelve months preceding the claim.</p>
+
+<h3>2.5 Changes to the service</h3>
+<p>We may modify, suspend, or discontinue the App or any part of it at any time, with reasonable prior notice where practicable. Where a change makes previously purchased digital content unavailable for technical reasons, we will act in good faith but are not obligated to provide refunds except as required by Google Play policy or applicable law.</p>
+
+<h3>2.6 Governing law and dispute resolution</h3>
+<p>These Terms are governed by the laws of the Province of Ontario, Canada, without regard to its conflict-of-law rules. </p>
+<p><strong>Arbitration and class-action waiver.</strong> To the maximum extent permitted by applicable law, any dispute arising out of or relating to the App or these Terms shall be resolved through final and binding individual arbitration, rather than in court, except that either party may bring a claim in small-claims court where eligible. You and we agree that each may bring claims against the other only in an individual capacity, and not as a plaintiff or class member in any purported class or representative proceeding. Where this clause is not enforceable under the law that applies to you, this section does not waive any right you cannot legally waive.</p>
+
+<h3>2.7 Changes to these terms</h3>
+<p>We may update these Terms from time to time. Material changes will be reflected by the "Last updated" date above. Continued use of the App after changes take effect constitutes acceptance.</p>
+
+<!-- ================= PURCHASE & REFUND ================= -->
+<h2 id="purchases">3. Purchase &amp; Refund Terms</h2>
+
+<h3>3.1 What you are buying</h3>
+<p>The App offers the following in-app purchases, all processed by Google Play Billing:</p>
+<ul>
+  <li><strong>Unlock App ($0.99)</strong> — a one-time purchase that unlocks the ability to view full product details and buy tokens. This is a non-consumable purchase tied to your account.</li>
+  <li><strong>Token packages (consumable)</strong> — tokens are an in-app currency used to download CAD files. Available packages: Trial (8 tokens), Starter (10 tokens), Standard (35 tokens), Pro (65 tokens), and Studio (140 tokens). The Trial package may be purchased a limited number of times per account.</li>
+</ul>
+<p>Each CAD file download costs a set number of tokens, shown before you confirm. Your current token balance is always visible at the top of the App.</p>
+
+<h3>3.2 Tokens "never expire"</h3>
+<p>We describe token packages as never expiring. This means tokens do not expire for the lifetime of the App and its commercially available service, subject to these Terms. It does not mean the lifetime of the user, and it does not guarantee that the service will remain available forever. Tokens have no cash value, are non-transferable, and cannot be exchanged for money.</p>
+
+<h3>3.3 Delivery</h3>
+<p>Digital content is delivered immediately. After you spend tokens on a file, a download link is provided in the App and your download history is updated.</p>
+
+<h3>3.4 Refund policy</h3>
+<div class="note">
+  Purchases of digital content are generally final, because content is delivered instantly. However, refund eligibility is ultimately determined by Google Play and by applicable consumer-protection laws. We do not and cannot deny any refund right you have under Google Play policy or the law.
+</div>
+<ul>
+  <li>To request a refund, you may contact Google Play Support directly, or contact us at <a href="mailto:lttran1294@gmail.com">lttran1294@gmail.com</a> and we will assist where we are able.</li>
+  <li>Because tokens are consumed instantly when you download a file, tokens that have already been spent are generally not refundable, except where required by law. The App asks you to confirm before tokens are spent.</li>
+  <li>If you believe a purchase was made in error or you were charged incorrectly, contact us and we will help investigate.</li>
+</ul>
+
+<!-- ================= CONTENT LICENSE ================= -->
+<h2 id="license">4. Content License</h2>
+<p>The CAD files sold through the App are the original property of Loan Tran. When you download a file using tokens, you receive a license to use that file for personal and commercial jewelry-production purposes.</p>
+<p>You may <strong>not</strong> resell, redistribute, share, or sublicense the CAD files themselves, whether free or for payment, or make them available in any file library or marketplace. The license covers use of the design to produce jewelry; it does not transfer ownership of the underlying design files.</p>
+<p>All textual content, layouts, the app icon, and software code in the App are the original, exclusive intellectual property of Loan Tran, protected under United States, Canadian, and international copyright laws.</p>
+
+<!-- ================= DISCLAIMER ================= -->
+<h2 id="disclaimer">5. Disclaimer</h2>
+<p>Jewelry CAD Store is a tool for browsing and obtaining jewelry CAD design files. It is a commercial design-asset application and does not provide professional, legal, financial, or manufacturing advice. Any metal weights, gem counts, or specifications shown within a design are provided for reference only; you are responsible for verifying all specifications before manufacturing. Production results depend on your own equipment, materials, and processes.</p>
+
+<!-- ================= CONTACT ================= -->
+<h2 id="contact">6. Contact</h2>
+<div class="contact-box">
+  <p style="margin:0 0 6px"><strong>Loan Tran</strong> — Developer, Jewelry CAD Store</p>
+  <p style="margin:0">Support &amp; data requests: <a href="mailto:lttran1294@gmail.com">lttran1294@gmail.com</a></p>
 </div>
 
-<!-- PRIVACY POLICY -->
-<h2>Part 1: Privacy Policy</h2>
+<footer>
+  &copy; 2026 Loan Tran. All rights reserved. Jewelry CAD Store.
+</footer>
 
-<h3>1.1 Information We Collect</h3>
-<p>When you create an account, we collect:</p>
-<ul>
-  <li>Email address</li>
-  <li>Purchase history and token balance</li>
-  <li>Download history (which CAD files you have accessed)</li>
-</ul>
-<p>We do not collect your name, phone number, location, or payment card details.</p>
-
-<h3>1.2 How We Use Your Information</h3>
-<p>Your information is used solely to:</p>
-<ul>
-  <li>Create and manage your account</li>
-  <li>Track your token balance and purchased files</li>
-  <li>Provide access to CAD files you have purchased</li>
-  <li>Respond to support requests</li>
-</ul>
-<p>We do not sell, rent, or share your personal information with any third parties for marketing purposes.</p>
-
-<h3>1.3 Data Storage & Security</h3>
-<p>Your data is stored securely using Google Firebase (Firestore), hosted on Google Cloud servers in the United States. We use industry-standard encryption and Firebase Authentication to protect your account.</p>
-
-<h3>1.4 Third-Party Services</h3>
-<p>We use the following third-party services:</p>
-<ul>
-  <li><strong>Google Firebase</strong> — authentication and database storage</li>
-  <li><strong>Google Play Billing</strong> — in-app purchase processing</li>
-  <li><strong>Google Drive</strong> — CAD file hosting and delivery</li>
-</ul>
-<p>These services have their own privacy policies. We recommend reviewing Google's Privacy Policy at <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
-
-<h3>1.5 Data Retention</h3>
-<p>We retain your account data for as long as your account is active. If you request account deletion, your data will be permanently removed within 30 days.</p>
-
-<h3>1.6 Children's Privacy</h3>
-<p>Jewelry CAD Store is intended for professional jewelry designers and adults aged 18 and over. We do not knowingly collect data from children under 13.</p>
-
-<h3>1.7 Account & Data Deletion</h3>
-<p>To delete your account and all associated data, email us at: <strong>lttran1294@gmail.com</strong> with the subject line "Account Deletion Request". We will process your request within 30 days.</p>
-
-<!-- TERMS OF SERVICE -->
-<h2>Part 2: Terms of Service</h2>
-
-<h3>2.1 Description of Service</h3>
-<p>Jewelry CAD Store is a digital marketplace that sells professional 3D CAD files (.3dm format) for jewelry design, compatible with Rhino 5+ and Matrix software. Files are delivered digitally via download link immediately after purchase.</p>
-
-<h3>2.2 Token System</h3>
-<p>Access to CAD files requires tokens. Tokens are purchased through Google Play in-app purchases. Token packages available:</p>
-<ul>
-  <li>Starter: 10 tokens — $9.99 USD</li>
-  <li>Standard: 35 tokens — $24.99 USD</li>
-  <li>Pro: 65 tokens — $49.99 USD</li>
-  <li>Studio: 140 tokens — $99.99 USD</li>
-</ul>
-<p>Tokens do not expire, are non-transferable between accounts, and have no cash value.</p>
-
-<h3>2.3 No Refund Policy</h3>
-<div class="highlight">
-  <strong>ALL SALES ARE FINAL. NO REFUNDS WILL BE ISSUED.</strong>
 </div>
-<p>By completing a purchase, you acknowledge and agree that:</p>
-<ul>
-  <li>Token packages are digital goods delivered instantly upon payment confirmation</li>
-  <li>Once tokens are credited to your account, the transaction is complete and irreversible</li>
-  <li>Once a CAD file has been unlocked and the download link has been provided, no refund will be issued for those tokens</li>
-  <li>We do not offer refunds for accidental purchases, change of mind, or incompatibility with your software version</li>
-  <li>Tokens cannot be exchanged for cash or other forms of payment</li>
-</ul>
-<p>If you experience a verified technical failure (e.g. tokens were charged but not credited to your account), please contact us at <strong>lttran1294@gmail.com</strong> within 48 hours with your order details, and we will investigate and resolve the issue at our discretion.</p>
-
-<h3>2.4 License for CAD Files</h3>
-<p>Upon purchasing access to a CAD file, you are granted a <strong>non-exclusive, non-transferable personal and commercial license</strong> to use the file for jewelry design and manufacturing purposes. You may:</p>
-<ul>
-  <li>Use the file to produce physical jewelry for personal or commercial sale</li>
-  <li>Modify the file for your own design projects</li>
-</ul>
-<p>You may <strong>not</strong>:</p>
-<ul>
-  <li>Redistribute, resell, sublicense, or share the CAD file with any third party</li>
-  <li>Upload the file to any other platform, marketplace, or file-sharing service</li>
-  <li>Claim ownership or authorship of the original design</li>
-</ul>
-<p>Violation of these terms may result in account termination and legal action.</p>
-
-<h3>2.5 Intellectual Property</h3>
-<p>All CAD files available on Jewelry CAD Store are the intellectual property of their respective designers. Purchasing access does not transfer copyright ownership to the buyer.</p>
-
-<h3>2.6 Account Responsibility</h3>
-<p>You are responsible for maintaining the security of your account credentials. We are not liable for unauthorized access to your account resulting from your failure to protect your login information. Do not share your account with others.</p>
-
-<h3>2.7 Disclaimer of Warranties</h3>
-<p>CAD files are provided "as is." We make no guarantees regarding compatibility with specific software versions, hardware configurations, or manufacturing processes. It is your responsibility to verify that files meet your technical requirements before purchase.</p>
-
-<h3>2.8 Limitation of Liability</h3>
-<p>To the maximum extent permitted by law, Jewelry CAD Store shall not be liable for any indirect, incidental, or consequential damages arising from the use or inability to use our service or downloaded files.</p>
-
-<h3>2.9 Changes to These Terms</h3>
-<p>We reserve the right to update these terms at any time. Continued use of the app after changes constitutes acceptance of the updated terms. We will update the "Last updated" date at the top of this page.</p>
-
-<h3>2.10 Governing Law</h3>
-<p>These terms are governed by applicable laws. Any disputes shall be resolved through good-faith negotiation before pursuing legal remedies.</p>
-
-<h3>2.11 Contact Us</h3>
-<p>For any questions regarding this policy or your account:</p>
-<p>Email: <strong>lttran1294@gmail.com</strong></p>
-
-<br><br>
-<p class="updated" style="text-align:center;">© 2026 Jewelry CAD Store. All rights reserved.</p>
-
 </body>
 </html>
